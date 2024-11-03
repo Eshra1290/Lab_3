@@ -5,15 +5,28 @@ body {
     margin: 0;
 }
 
+.gif-container {
+    text-align: center;
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+}
+
 header {
     text-align: center;
     padding: 20px;
-    background-color: #333;
+    background-color: #d38bcf;
     color: white;
 }
 
-h1, h2, h3 {
-    color: #444;
+h2, h3 {
+    color: #000000;
+}
+
+h1 {
+    color: #000000;
 }
 
 nav ul {
