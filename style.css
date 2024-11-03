@@ -67,6 +67,27 @@ nav li {
     height: auto;
 }
 
+.campus-life-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Space between each grid item */
+    padding: 20px;
+}
+
+.experience {
+    background-color: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.experience img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px; /* Space between description and image */
+    border-radius: 8px;
+}
+
 section {
     width: 80%;
     margin: auto;
