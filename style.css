@@ -44,6 +44,29 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul {
+    display: flex;
+    justify-content: center; /* Centers the links horizontally */
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px; /* Adds space between links */
+}
+
+.hobbies-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px;
+    align-items: center;
+}
+
+.hobbies-section img {
+    width: 100%;
+    height: auto;
+}
+
 section {
     width: 80%;
     margin: auto;
